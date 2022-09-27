@@ -169,8 +169,10 @@ print(my_bool)
 
 text= "When something is important enough, you do it even if the odds are against you - Elon Musk"
 
-word1= success
-word2= technology
+my_bool= ('Success' not in text) and ('technology' not in text)
+print(my_bool)
+
+
 
 
 
